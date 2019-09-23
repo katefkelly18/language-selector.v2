@@ -2,6 +2,14 @@
   display: none;
 }
 
+.btn {
+  display: block;
+}
+
 body {
   background-color: rgba(197, 248, 250);
+}
+
+.radio {
+  color: navy;
 }

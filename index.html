@@ -14,161 +14,155 @@
         <h2>How to find your ideal coding language while preparing for an internship or job as a Software Engineer.</h2>
         <p>While enrolled in a coding bootcamp, it can be challenging to decide which language to continue learning once class has ended. There are a number of languages that coding students can learn while in coding school and while continuing their education including Javascript, C#, Ruby, Go, Python, Rust, Swift and more. Use the questionnaire below to see which language might work best for you.</p>
       </div>
-    <form id="language-selector">
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <select class="form-control" id="gender">
-          <label for="gender">Please select your gender:</label>
-          <option></option>
-          <option>Female</option>
-          <option>Male</option>
-          <option>I do not identify as male or female</option>
-        </select>
-      </div>
-    </div>
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <div class="education">
-          <label for="education">Please select your highest level of education:</label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="education" value="highschool" checked>
-            Highschool Diploma
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="education" value="associate" checked>
-            Associate Degree
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="education" value="bachelor" checked>
-            Bachelors Degree
-          </label>
+      <div id="blanks">
+        <form>
+        <div class="panel panel-default">
+        <div class="panel-body">
+          <select class="form-control" id="gender">
+            <label for="gender">Please select your gender:</label>
+            <option></option>
+            <option>Female</option>
+            <option>Male</option>
+            <option>I do not identify as male or female</option>
+          </select>
         </div>
       </div>
-    </div>
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <div class="level">
-          <label for="level">Please select your current skill level for coding:</label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="level" value="beginner" checked>
-            Beginner
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="level" value="intermediate" checked>
-            Intermediate
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="level" value="advanced" checked>
-            Advanced
-          </label>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div class="education">
+            <label for="education">Please select your highest level of education:</label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="education" value="highschool" checked id="education"> Highschool Diploma
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="education" value="associate" checked id="education"> Associate Degree
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="education" value="bachelor" checked id="education">Bachelors Degree
+            </label>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <div class="work">
-          <label for="work">Please select your below working style:</label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="work" value="alone" checked>
-            Alone, I work best when I can make the decisions.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="work" value="group" checked>
-            Group, I enjoy collaborating and do not like to make decisions on my own.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="work" value="all" checked>
-            Both, I am capable of working along but also enjoy working as a group member.
-          </label>
-        </div>
-      </div>
-    </div>
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <div class="time">
-          <label for="time">Please select how much time you estimate that you can dedicate to studying per week:</label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="time" value="small" checked>
-            1-2 hours
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="time" value="medium" checked>
-            2-4 hours
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="time" value="large" checked>
-            4-6 hours or more
-          </label>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div class="level">
+            <label for="level">Please select your current skill level for coding:</label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="level" value="beginner" checked id="level">
+              Beginner
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="level" value="intermediate" checked id="level">Intermediate
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="level" value="advanced" checked id="level">
+              Advanced
+            </label>
+          </div>
         </div>
       </div>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div class="work">
+            <label for="work">Please select your below working style:</label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="work" value="alone" checked id="work">
+              Alone, I work best when I can make the decisions.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="work" value="group" checked id="work">
+              Group, I enjoy collaborating and do not like to make decisions on my own.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="work" value="all" checked id="work">
+              Both, I am capable of working along but also enjoy working as a group member.
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div class="time">
+            <label for="time">Please select how much time you estimate that you can dedicate to studying per week:</label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="small" checked id="time">
+              1-2 hours
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="medium" checked id="time">
+              2-4 hours
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="large" checked id="time">
+              4-6 hours or more
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div class="location">
+            <label for="location">Please select the Metropolitan area that you are located in:</label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="location" value="seattle" checked id="location">
+              Seattle
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="location" value="San Francisco" checked id="location">
+              San Francisco
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="location" value="Los Angeles" checked>
+              Los Angeles
+            </label>
+          </div>
+      </div>
     </div>
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <div class="location">
-          <label for="location">Please select the Metropolitan area that you are located in:</label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="location" value="seattle" checked>
-            Seattle
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="location" value="San Francisco" checked>
-            San Francisco
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="location" value="Los Angeles" checked>
-            Los Angeles
-          </label>
-        </div>
+      <button type="submit" class="btn">Click here to see your ideal language!</button>
+    </form>
     </div>
-  </div>
-  <button type="button" class="btn btn-success btn-md">Click here to see your ideal language!</button>
-  </form>
-
-  <div id="final">
-      <p>Your ideal language is <span id="result"></span></p>
-
       <div id="javascript">
-    <h1>Your match: Javascript</h1>
-        <p>You have matched with Javascript. We think you will only need a highschool level education to learn this language with atleast one hour of time per week to study. We recommend using <a href="https://studio.code.org/courses" target="_blank">Code.org </a> to learn more about this language. </p>
+      <h1>Your match: Javascript</h1>
+          <p>You have matched with Javascript. We think you will only need a highschool level education to learn this language with atleast one hour of time per week to study. We recommend using <a href="https://studio.code.org/courses" target="_blank">Code.org </a> to learn more about this language. </p>
+      </div>
+      <div id="csharp">
+        <h1>Your match: C#</h1>
+          <p>You have matched with C# (C sharp). We think this requires an education background of atleast a Bachelors degree to learn with 2 or more hours of time to study each week. We recommend using <a href="https://www.codecademy.com/"target="_blank">Code Academy</a> to learn more about this language.</p>
+      </div>
+      <div id="python">
+        <h1>Your match: Python</h1>
+          <p>You have matched with Python. We think that this language requires more of an educational background with more than 4 hours of study time each week. We recommend using <a href="https://www.w3schools.com/python/default.asp"target="_blank">w3schools</a> to learn more about this language.</p>
+      </div>
     </div>
-    <div id="csharp">
-      <h1>Your match: C#</h1>
-        <p>You have matched with C# (C sharp). We think this requires an education background of atleast a Bachelors degree to learn with 2 or more hours of time to study each week. We recommend using <a href="https://www.codecademy.com/"target="_blank">Code Academy</a> to learn more about this language.</p>
-    </div>
-    <div id="python">
-      <h1>Your match: Python</h1>
-        <p>You have matched with Python. We think that this language requires more of an educational background with more than 4 hours of study time each week. We recommend using <a href="https://www.w3schools.com/python/default.asp"target="_blank">w3schools</a> to learn more about this language.</p>
-    </div>
-  </div>
   </body>
 </html>
